@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9360f1f54293f7429030864c524a198, type: 3}
+  m_Name: BasicProjectile
+  m_EditorClassIdentifier: 
+  aName: New Ability
+  aSprite: {fileID: 0}
+  aSound: {fileID: 0}
+  aBaseCoolDown: 1
+  projectileForce: 300
+  projectile: {fileID: 4142986265323590169, guid: 7e4506b07f25bac4bbf96994e05ede5b,
+    type: 3}
+  emissionVFX: {fileID: 1790905753342259296, guid: 0789822011efcd547a971d2f0b61e961,
+    type: 3}

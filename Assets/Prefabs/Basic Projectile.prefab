@@ -9792,7 +9792,7 @@ Rigidbody:
   serializedVersion: 2
   m_Mass: 1
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -9806,11 +9806,11 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4142986265323590169}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.082138374, y: 0.08537942, z: 0.08507001}
-  m_Center: {x: 0.006508015, y: -0.026816905, z: 0.01682182}
+  m_Size: {x: 0.025788665, y: 0.028707702, z: 0.069998026}
+  m_Center: {x: -0.0001412034, y: 0.0015189517, z: -0.0016690493}
 --- !u!114 &1812653661525604981
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9823,3 +9823,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce7fe171e365cba4f89cd466a02683d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _afterFX: {fileID: 6655009771921007206, guid: 31d84e180ce3beb42888ce126a48057f,
+    type: 3}
+  _afterFXLifetime: 2
