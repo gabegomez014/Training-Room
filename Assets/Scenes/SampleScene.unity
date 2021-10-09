@@ -514,12 +514,12 @@ GameObject:
   - component: {fileID: 375493585}
   - component: {fileID: 375493584}
   - component: {fileID: 375493588}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall
   m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!65 &375493584
 BoxCollider:
@@ -6331,12 +6331,12 @@ GameObject:
   - component: {fileID: 1195995568}
   - component: {fileID: 1195995567}
   - component: {fileID: 1195995566}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Fire Sub-plane
   m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1195995565
 Transform:
@@ -7242,80 +7242,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1552016378}
   m_CullTransparentMesh: 1
---- !u!1001 &1554420478
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 6655009771921007203, guid: 31d84e180ce3beb42888ce126a48057f,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 17
-      objectReference: {fileID: 0}
-    - target: {fileID: 6655009771921007203, guid: 31d84e180ce3beb42888ce126a48057f,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.913
-      objectReference: {fileID: 0}
-    - target: {fileID: 6655009771921007203, guid: 31d84e180ce3beb42888ce126a48057f,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.29160002
-      objectReference: {fileID: 0}
-    - target: {fileID: 6655009771921007203, guid: 31d84e180ce3beb42888ce126a48057f,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 1.657
-      objectReference: {fileID: 0}
-    - target: {fileID: 6655009771921007203, guid: 31d84e180ce3beb42888ce126a48057f,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.87319887
-      objectReference: {fileID: 0}
-    - target: {fileID: 6655009771921007203, guid: 31d84e180ce3beb42888ce126a48057f,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6655009771921007203, guid: 31d84e180ce3beb42888ce126a48057f,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0.48736405
-      objectReference: {fileID: 0}
-    - target: {fileID: 6655009771921007203, guid: 31d84e180ce3beb42888ce126a48057f,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6655009771921007203, guid: 31d84e180ce3beb42888ce126a48057f,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6655009771921007203, guid: 31d84e180ce3beb42888ce126a48057f,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: -87.7
-      objectReference: {fileID: 0}
-    - target: {fileID: 6655009771921007203, guid: 31d84e180ce3beb42888ce126a48057f,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6655009771921007206, guid: 31d84e180ce3beb42888ce126a48057f,
-        type: 3}
-      propertyPath: m_Name
-      value: FloorCrackParticle
-      objectReference: {fileID: 0}
-    - target: {fileID: 6655009771921007206, guid: 31d84e180ce3beb42888ce126a48057f,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 31d84e180ce3beb42888ce126a48057f, type: 3}
 --- !u!1 &1555953584
 GameObject:
   m_ObjectHideFlags: 0
@@ -8516,7 +8442,7 @@ GameObject:
   - component: {fileID: 1947844314}
   - component: {fileID: 1947844318}
   m_Layer: 0
-  m_Name: Sphere
+  m_Name: Projectile Shooter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8612,7 +8538,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3bf7c920bd65c444a918c9b2da602b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  projectileAbility: {fileID: 11400000, guid: cb7d5f3a92027f946a8f3f70aa065cc7, type: 2}
+  projectileAbility: {fileID: 11400000, guid: a1977bfc0981e8440aaa00a9ff821917, type: 2}
   maxLength: 40
   _shootingPosition: {fileID: 252306285}
 --- !u!1 &2000450165
